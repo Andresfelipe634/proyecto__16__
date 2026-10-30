@@ -1,0 +1,49 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 5px;
+    display: none;
+
+}
+/*interuptor */
+.abierto{
+    display: block;
+}
+
+.dropdown{
+    width: 300px;
+    font-family: sans-serif;
+}
+
+.boton{
+    width: 100%;
+    padding: 10px 15px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    padding:10px 15px ;
+    border-bottom: 1px solid #ccc;
+   cursor: pointer;
+}
+
+.seleccionado {
+    background-color: blue;
+    font-weight: bold;
+
+}
+.flecha{
+    display: inline-block; 
+    transition: transform 0.3s ease;
+
+}
+
+.flecha.girada{
+    transform: rotate(180deg);
+}
